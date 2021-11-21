@@ -1,0 +1,26 @@
+{
+  "match-8021p6": [
+     "good",
+     "if-match 8021p 6"
+  ],
+  "match-8021p7": [
+    "good",
+    "if-match 8021p 7"
+ ],
+  "link-layer-in": [
+     "good",
+     "traffic-policy pbit-observing-TLF inbound link-layer"
+  ],
+  "link-layer-out": [
+    "good",
+    "traffic-policy pbit-observing-TLF outbound link-layer"
+ ],
+  "no-link-layer-in": [
+     "bad",
+     "traffic-policy pbit-observing-TLF inbound"
+  ],
+  "no-link-layer-out": [
+     "bad",
+     "traffic-policy pbit-observing-TLF outbound"
+  ]
+}
