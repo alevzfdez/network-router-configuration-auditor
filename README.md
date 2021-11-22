@@ -7,9 +7,9 @@ After all it export a CSV file including each node check results for each requir
 
 ## Requirements ##
 
-It's needed several requirements like, most of them won't be included on repo for NDA reasons:
+It's needed a  ouple of requirements, 
 
-    1. ISP input node list form it's inventory
+    1. ISP input node list form desired inventory
     2. URLs from where to gather configuration files (in plain text from each vendor backup config file format)
 
 
